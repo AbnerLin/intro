@@ -650,12 +650,13 @@ form {
   font-weight: bold;
   margin-top: 24px;
   margin-bottom: 8px;
+  margin-left: -10px;
   color: #474747;
   text-indent: 3px;
 }
 
 #main-content h3:before {
-  content: "///";
+  //content: "///";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -2em;
@@ -727,6 +728,7 @@ blockquote {
 ul {
   list-style: disc inside;
   padding-left: 20px;
+  margin-top: -5px;
 }
 
 ol {
